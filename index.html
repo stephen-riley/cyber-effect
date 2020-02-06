@@ -9,17 +9,21 @@
 </head>
 
 <body>
-    <span class='cybertext'>Title Text</span>
+    <div style='color:red;font-size:150%'>
+        <span class='cybertext' id='cybertext'>A whole lot of title text</span>
+    </div>
     <div class='white'>
         This is some more text.
-        <button onclick="cyber_init('--cybercolor', 'cyberpunk_mix.mp3');">Go</button>
+        <button onclick="cyber_init('--cybercolor', 'cyberpunk_mix.mp3');">Cyber</button>
+        <button onclick="cyber_init_advanced('cybertext', 'cyberpunk_mix.mp3', 0.63);">Advanced</button>
+    </div>
+    <div class="white">
+        (Only click one button. "Advanced" is cooler.)
     </div>
 
     <canvas id="renderer"></canvas>
 </body>
 
 <script type="text/javascript" src="cyber-effect.js"></script>
-<script>
-</script>
 
 </html>
