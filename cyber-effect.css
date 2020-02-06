@@ -1,0 +1,18 @@
+:root {
+    --cybercolor: red;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #222222;
+}
+
+.cybertext {
+    font-size: 150%;
+    color: var(--cybercolor);
+}
+
+.white {
+    padding-top: 20px;
+    color: white;
+}
